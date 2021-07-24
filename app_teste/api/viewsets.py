@@ -4,6 +4,7 @@ from app_teste.models import UsuarioApi
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
 
+
 class UsuarioViewSet(ModelViewSet):
     #permicoes
     permission_classes = [IsAuthenticated, ]
