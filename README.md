@@ -1,5 +1,5 @@
-#API Dados-simples-Django-Rest-Framework
-Simples exemplo de utilização do django rest framework
+#API-simples-Django-Rest-Framework
+<h2>Simples exemplo de utilização do django rest framework</h2>
  <h3>para  rodar o projeto no window</h3>
 <p align="justify">  git clone Link da app</p>
 <p align="justify">cd pasta do projeto</p>
