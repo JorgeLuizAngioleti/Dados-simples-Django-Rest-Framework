@@ -15,12 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from app_teste.api.viewsets import UsuarioViewSet
+from app_teste.api.viewsets import UsuarioViewSet,EscolaViewSet
 from rest_framework import routers#import esta linha
 from rest_framework.authtoken import views #autenticações
 
 router = routers.DefaultRouter()#crie a rota
 router.register(r'usuarios', UsuarioViewSet)
+router.register(r'escolas', EscolaViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
